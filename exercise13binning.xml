@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE TUnfoldBinning SYSTEM "tunfoldbinning.dtd">
+<TUnfoldBinning>
+<BinningNode name="detector">
+  <Axis name="aRec" lowEdge="-0.9.">
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Axis name="bRec" lowEdge="-0.9">
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    <Bin width="0.06"/>
+    </Axis>
+  </Axis>
+</BinningNode>
+<BinningNode name="generator">
+  <BinningNode name="signal">
+    <Axis name="aGen" lowEdge="-0.9">
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Axis name="bGen" lowEdge="-0.9">
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      <Bin width="0.12"/>
+      </Axis>
+    </Axis>
+  </BinningNode>
+  <BinningNode name="background">
+    <Axis name="aRec" lowEdge="-0.9">
+      <Bin width="0.9"/>
+      <Bin width="0.9"/>
+      <Axis name="bRec" lowEdge="-0.9">
+	<Bin width="0.9"/>
+	<Bin width="0.9"/>
+      </Axis>
+    </Axis>
+  </BinningNode>
+</BinningNode>
+</TUnfoldBinning>
