@@ -5,7 +5,7 @@ ROOTLIBS     := $(shell $(ROOTCONFIG) --libs)
 ROOTGLIBS    := $(shell $(ROOTCONFIG) --glibs)
 ROOTCINT=$(ROOTSYS)/bin/rootcint
 
-CXXFLAGS=-isystem $(shell $(ROOTCONFIG) --incdir) -I$(ROOTSYS)/htmldoc -I. -O2 -g -Wall -Wshadow -W -Woverloaded-virtual -D__cplusplus $(ROOTCFLAGS)
+CXXFLAGS=-isystem $(shell $(ROOTCONFIG) --incdir) -I$(ROOTSYS)/htmldoc -I. -O2 -g -Wall -Wshadow -W -Woverloaded-virtual -std=c++11 -fPIC $(ROOTCFLAGS)
 LDFLAGS=$(ROOTLDFLAGS) -L. -Wl,-rpath .
 
 ROOTLIBS     := -lXMLParser $(ROOTLIBS)

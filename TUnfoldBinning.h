@@ -7,8 +7,8 @@
 //    Version 17.1, in parallel to TUnfold
 //    Version 17.0, initial version, numbered in parallel to TUnfold
 
-#ifndef ROOT_TUnfoldBinning
-#define ROOT_TUnfoldBinning
+#ifndef ROOT_TUnfoldBinningV17 // modified from ROOT_TUnfoldBinning to ROOT_TUnfoldBinningV17
+#define ROOT_TUnfoldBinningV17
 
 
 //////////////////////////////////////////////////////////////////////////

@@ -7,8 +7,8 @@
 //    Version 17.1, in parallel to TUnfold
 //    Version 17.0, initial version, numbered in parallel to TUnfold
 
-#ifndef ROOT_TUnfoldBinningXML
-#define ROOT_TUnfoldBinningXML
+#ifndef ROOT_TUnfoldBinningXMLV17 // modified from ROOT_TUnfoldBinningXML to ROOT_TUnfoldBinningXMLV17
+#define ROOT_TUnfoldBinningXMLV17
 
 
 //////////////////////////////////////////////////////////////////////////
